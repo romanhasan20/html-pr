@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+.body{
+}
+
+header{
+	overflow: hidden;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+/* header part */
+.month{
+    width: 100%;
+    float: left;
+}
+.logo{
+    width: 20%;
+    padding: 30px 0px;
+    float: left;
+}
+nav{
+    width: 70%;
+    float: left;
+    padding: 38px 0px;
+    margin-left: 100px;
+}
+nav ul{
+    list-style: none;
+    float: right;
+    font-size: 13.2px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0px 10px;
+
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #151515;
+	font-size: 20px;
+}
+
+/* property part*/
+.property{
+    background: url("../img/bb.png");
+    background-repeat: none;
+    background-size: cover;
+    overflow: hidden;
+    padding: 100px 0;
+    text-align: center;
+}
+.property-text{
+    width: 100%;
+    float: left;
+    z-index: 11;
+    position: relative;
+}
+.property-text h2{
+    text-align: center;
+    font-size: 49.2px;
+    color: #fff;
+    padding-top: 170px;
+}
+.property-text h5{
+    font-size: 35.2px;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 23px;
+}
+.btn{
+    padding: 20px 50px;
+    background: #99c50a;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: none;
+    margin-bottom: 165px;
+    z-index: 11;
+    position: relative;
+    font-size: 19.2px;
+    display: inline-block;
+}
+
+/* ourt work part */
+
+.icon{
+
+}
+
+.work{
+	background-color: #f6f9f9;
+	text-align: center;
+	overflow: hidden;
+	padding: 70px 0;
+}
+
+h2{
+	padding: 10px;
+	color: #2d3950;
+	font-size: 40px;
+	margin-bottom: 35px;
+	line-height: 150%;
+}
+
+.work p{
+	color: #999999;
+	font-size: 15px;
+	margin-bottom: 30px;
+}
+
+/* find part */
+.content{
+    overflow: hidden;
+}
+
+.properties{
+    width: 50%;
+    float: left;
+    background: #e2f8ff;
+    padding: 70px 150px;
+}
+
+.buyers{
+    width: 50%;
+    float: left;
+    background: #f5f9eb;
+    padding: 70px 150px;
+}
+
+.properties-left, .buyers-left{
+    width: 30%;
+    margin-right: 10%;
+    float: left;
+    display: block;
+}
+
+.properties-left img, .buyers-left img{
+    margin-top: 35px;
+}
+
+.properties-right, .buyers-right{
+    width: 60%;
+    float: left;
+    text-align: justify;
+}
+
+.properties-right h4, .buyers-right h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #515151;
+}
+
+.properties-right p, .buyers-right p{
+    font-size: 16px;
+    color: #6e7274;
+    margin-bottom: 20px;
+}
+
+.properties-right .btn{
+    font-size: 13px;
+    background-color: #26a6d1;
+    padding: 20px 10px;
+}
+
+.buyers-right .btn{
+    font-size: 13px;
+    background-color: #add136;
+    padding: 20px 10px;
+}
